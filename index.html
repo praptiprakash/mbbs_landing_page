@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply for MBBS Abroad in top countries like Russia, Uzbekistan, Kazakhstan, and more. Get expert guidance on admissions.">
+    <meta name="keywords" content="MBBS Abroad, Study Medicine, Medical Universities, MBBS Admissions">
+    <meta name="author" content="Your Name">
+    <title>Study MBBS Abroad</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
+</head>
+<body>
+    <header class="hero">
+        <h1>Study MBBS Abroad</h1>
+        <p>Start your journey to becoming a doctor in top universities worldwide.</p>
+        <button onclick="scrollToForm()">Apply Now</button>
+    </header>
+
+    <section class="why-mbbs">
+        <h2>Why Study MBBS Abroad?</h2>
+        <ul>
+            <li>Affordable tuition fees 💰</li>
+            <li>Globally recognized universities 🌍</li>
+            <li>High-quality education 👩🏻‍🏫</li>
+            <li>International career opportunities ☑️</li>
+        </ul>
+    </section>
+
+    <section class="top-countries">
+        <h2>Top Countries for MBBS</h2>
+        <ul>
+            <li><img src="images\Russia.png">Russia</li>
+            <li><img src="images\Uzbekistan.png">Uzbekistan</li>
+            <li><img src="images\Kazakhstan.png">Kazakhstan</li>
+            <li><img src="images\Philippines.png">Philippines</li>
+            <li><img src="images\Georgia.png">Georgia</li>
+            <li><img src="images\Kyrgyzstan.png">Kyrgyzstan</li>
+            <li><img src="images\egypt.png">Egypt</li>
+        </ul>
+    </section>
+
+    <section class="admission-process">
+        <h2>Admission Process & Eligibility</h2>
+        <p>Follow these simple steps:</p>
+        <ol>
+            <li>➡️ Choose a country and university.</li>
+            <li>➡️ Check eligibility requirements.</li>
+            <li>➡️ Submit application and required documents.</li>
+            <li>➡️ Receive admission confirmation.</li>
+            <li>➡️ Apply for a student visa.</li>
+            <li>➡️ Book your flight and begin your journey.</li>
+        </ol>
+    </section>
+
+    <section class="cta" id="lead-form">
+        <h2>Apply Now</h2>
+        <form id="applicationForm" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <select id="country" required>
+                <option value="">Select Preferred Country</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Egypt">Egypt</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
